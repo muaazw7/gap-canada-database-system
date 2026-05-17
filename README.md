@@ -1,26 +1,25 @@
-# Gap Canada Database System
+# Retail Inventory & Sales SQL Database System
 
-This project designs and implements a relational database system for Gap Canada’s retail operations using SQL Server, SSMS, and ERDPlus. The system supports customer management, product inventory, order processing, returns, payments, reviews, and retail reporting workflows.
+This project designs and implements a relational SQL database system for retail inventory and sales operations using Microsoft SQL Server (SSMS) and ERDPlus. The system supports customer management, inventory tracking, order processing, payments, returns, product reviews, and operational reporting workflows.
 
 ## Tools Used
-- Microsoft SQL Server
-- SSMS
+- Microsoft SQL Server (SSMS)
 - ERDPlus
 - Relational Database Design
 - SQL
 
 ## Business Problem
 
-Retail organizations require structured database systems to manage customer transactions, product inventory, online orders, returns, payments, and reporting processes efficiently. This project designs a relational database model to support core retail operations and business reporting for a large apparel retailer.
+Retail organizations require structured relational database systems to efficiently manage customer transactions, inventory, online orders, payments, returns, and operational reporting.
 
 ## Project Overview
 
-The database system was designed to support customer management, inventory tracking, product SKUs, order processing, payments, returns, and product reviews. The project includes ER modeling, relational schema design, normalization, primary/foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
+The database system was designed to support customer management, inventory tracking, product catalog management, order processing, payments, returns, and product reviews. The project includes ERD design, relational schema development, database normalization, primary and foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
 
 ## Key Features
-- Designed an entity-relationship model for retail operations
+- Designed entity-relationship diagrams (ERDs) for retail operations
 - Developed normalized relational schemas with primary and foreign key constraints
-- Modeled customers, products, SKUs, orders, inventory, payments, returns, and reviews
+- Modeled customers, products, inventory, orders, payments, returns, and reviews
 - Implemented referential integrity and domain constraints
 - Created SQL queries for reporting and operational analysis
 - Supported inventory tracking and retail transaction workflows
@@ -28,16 +27,16 @@ The database system was designed to support customer management, inventory track
 ## Skills Demonstrated
 - SQL
 - Database Design
-- ER Modeling
+- Entity-Relationship Diagrams (ERD)
 - Relational Schema Design
-- Normalization
+- Database Normalization
 - Referential Integrity
 - SQL Query Development
 
 ## Project Images
 
-![Gap ER Model](images/gap-er-model.png)
+![Retail ER Model](images/gap-er-model.png)
 
-![Gap Relational Diagram](images/gap-relational-diagram.png)
+![Retail Relational Schema](images/gap-relational-diagram.png)
 
-![Gap SQL Query Example](images/gap-sql-query-example.png)
+![Retail SQL Query Example](images/gap-sql-query-example.png)
