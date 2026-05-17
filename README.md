@@ -10,11 +10,11 @@ This project designs and implements a relational SQL database system for retail 
 
 ## Business Problem
 
-Retail organizations require structured relational database systems to efficiently manage customer transactions, inventory, online orders, payments, returns, and operational reporting.
+Retail organizations rely on structured relational database systems to efficiently manage customer transactions, inventory, online orders, payments, returns, and operational reporting.
 
 ## Project Overview
 
-The database system was designed to support customer management, inventory tracking, product catalog management, order processing, payments, returns, and product reviews. The project includes ERD design, relational schema development, database normalization, primary and foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
+The database system was designed to support customer management, inventory tracking, product catalog management, order processing, payments, returns, and product reviews. The project includes ERD development, relational schema development, database normalization, primary and foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
 
 ## Key Features
 - Designed entity-relationship diagrams (ERDs) for retail operations
