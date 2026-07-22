@@ -18,11 +18,14 @@ The database system was designed to support customer management, inventory track
 
 ## Key Features
 - Designed entity-relationship diagrams (ERDs) for retail operations
-- Developed normalized relational schemas with primary and foreign key constraints
+- Developed normalized relational schemas (3NF) with primary keys, foreign keys, and referential integrity constraints.
 - Modeled customers, products, inventory, orders, payments, returns, and reviews
 - Implemented referential integrity and domain constraints
-- Created SQL queries for reporting and operational analysis
+- Created complex SQL queries using JOINs, GROUP BY, aggregate functions, and filtering to support inventory, sales, and operational reporting.
 - Supported inventory tracking and retail transaction workflows
+
+## Business Value
+The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design and SQL reporting.
 
 ## Skills Demonstrated
 - SQL
