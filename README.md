@@ -30,9 +30,9 @@ The database system was designed to support customer management, inventory track
 - Supported inventory tracking and retail transaction workflows
 
 ## Business Value
-The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design and SQL reporting.
+The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design, normalized schemas, and SQL-based reporting.
 
-## SQL Query
+## Sample SQL Query
 ```sql
 SELECT
     ProductName,
@@ -56,6 +56,6 @@ ORDER BY TotalUnitsSold DESC;
 - SQL Query Development
 
 ## Database Design
-![Retail ER Model](images/gap-er-model.png)
-![Retail Relational Schema](images/gap-relational-diagram.png)
-![Retail SQL Query Example](images/gap-sql-query-example.png)
+## Entity Relationship Diagram ![Retail ER Model](images/gap-er-model.png)
+## Relational Schema ![Retail Relational Schema](images/gap-relational-diagram.png)
+## Sample SQL Query Output ![Retail SQL Query Example](images/gap-sql-query-example.png)
