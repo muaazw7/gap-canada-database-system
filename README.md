@@ -1,5 +1,4 @@
 # Retail Inventory & Sales SQL Database System
-
 This project designs and implements a relational SQL database system for retail inventory and sales operations using Microsoft SQL Server (SSMS) and ERDPlus. The system supports customer management, inventory tracking, order processing, payments, returns, product reviews, and operational reporting workflows.
 
 ## Tools Used
@@ -9,19 +8,17 @@ This project designs and implements a relational SQL database system for retail 
 - SQL
 
 ## Business Problem
-
 Retail organizations rely on structured relational database systems to efficiently manage customer transactions, inventory, online orders, payments, returns, and operational reporting.
 
 ## Project Overview
-
 The database system was designed to support customer management, inventory tracking, product catalog management, order processing, payments, returns, and product reviews. The project includes ERD development, relational schema development, database normalization, primary and foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
 
 ## Key Features
 - Designed entity-relationship diagrams (ERDs) for retail operations
-- Developed normalized relational schemas (3NF) with primary keys, foreign keys, and referential integrity constraints.
+- Developed normalized relational schemas (3NF) with primary keys, foreign keys, and referential integrity constraints
 - Modeled customers, products, inventory, orders, payments, returns, and reviews
 - Implemented referential integrity and domain constraints
-- Created complex SQL queries using JOINs, GROUP BY, aggregate functions, and filtering to support inventory, sales, and operational reporting.
+- Created complex SQL queries using JOINs, GROUP BY, aggregate functions, and filtering to support inventory, sales, and operational reporting
 - Supported inventory tracking and retail transaction workflows
 
 ## Business Value
@@ -37,9 +34,6 @@ The database supports inventory management, sales reporting, customer transactio
 - SQL Query Development
 
 ## Project Images
-
 ![Retail ER Model](images/gap-er-model.png)
-
 ![Retail Relational Schema](images/gap-relational-diagram.png)
-
 ![Retail SQL Query Example](images/gap-sql-query-example.png)
