@@ -34,18 +34,20 @@ The database system was designed to support customer management, inventory track
 The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design, normalized schemas, and SQL-based reporting.
 
 ## Sample SQL Query
+The following query joins the `Product`, `SKU`, and `Inventory` tables to produce an inventory report showing each product variation and its current stock level.
 
 ```sql
 SELECT
-    ProductName,
-    SUM(Quantity) AS TotalUnitsSold
-FROM Orders o
-JOIN OrderDetails od
-    ON o.OrderID = od.OrderID
-JOIN Products p
-    ON od.ProductID = p.ProductID
-GROUP BY ProductName
-ORDER BY TotalUnitsSold DESC;
+    P.Product_Name,
+    S.SKU_ID,
+    S.Size,
+    S.Color,
+    I.Quantity_On_Hand
+FROM Product AS P
+JOIN SKU AS S
+    ON P.Product_ID = S.Product_ID
+JOIN Inventory AS I
+    ON S.SKU_ID = I.SKU_ID;
 ```
 
 ## Skills Demonstrated
