@@ -1,4 +1,5 @@
 # Retail Inventory & Sales SQL Database System
+
 This project designs and implements a relational SQL database system for retail inventory and sales operations using Microsoft SQL Server (SSMS) and ERDPlus. The system supports customer management, inventory tracking, order processing, payments, returns, product reviews, and operational reporting workflows.
 
 ## Tools Used
@@ -33,6 +34,7 @@ The database system was designed to support customer management, inventory track
 The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design, normalized schemas, and SQL-based reporting.
 
 ## Sample SQL Query
+
 ```sql
 SELECT
     ProductName,
@@ -56,6 +58,12 @@ ORDER BY TotalUnitsSold DESC;
 - SQL Query Development
 
 ## Database Design
-## Entity Relationship Diagram ![Retail ER Model](images/gap-er-model.png)
-## Relational Schema ![Retail Relational Schema](images/gap-relational-diagram.png)
-## Sample SQL Query Output ![Retail SQL Query Example](images/gap-sql-query-example.png)
+
+### Entity Relationship Diagram
+![Retail ER Model](images/gap-er-model.png)
+
+### Relational Schema
+![Retail Relational Schema](images/gap-relational-diagram.png)
+
+### Sample SQL Query Output
+![Retail SQL Query Example](images/gap-sql-query-example.png)
