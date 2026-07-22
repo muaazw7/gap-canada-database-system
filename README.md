@@ -15,7 +15,7 @@ Retail organizations rely on structured relational database systems to efficient
 The database system was designed to support customer management, inventory tracking, product catalog management, order processing, payments, returns, and product reviews. The project includes ERD development, relational schema development, database normalization, primary and foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
 
 ## Database Design Summary
-- 8 core business entities
+- 11 core business entities
 - Third Normal Form (3NF) database design
 - Primary and foreign key relationships
 - Referential integrity constraints
@@ -27,8 +27,7 @@ The database system was designed to support customer management, inventory track
 - Developed normalized relational schemas (3NF) with primary keys, foreign keys, and referential integrity constraints
 - Modeled customers, products, inventory, orders, payments, returns, and reviews
 - Implemented referential integrity and domain constraints
-- Created complex SQL queries using JOINs, GROUP BY, aggregate functions, and filtering to support inventory, sales, and operational reporting
-- Supported inventory tracking and retail transaction workflows
+Created multi-table SQL queries using JOINs and filtering to support inventory, product, and operational reporting.- Supported inventory tracking and retail transaction workflows
 
 ## Business Value
 The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design, normalized schemas, and SQL-based reporting.
