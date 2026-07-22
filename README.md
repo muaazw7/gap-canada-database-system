@@ -9,7 +9,7 @@ This project designs and implements a relational SQL database system for retail 
 - SQL
 
 ## Business Problem
-Retail organizations rely on structured relational database systems to efficiently manage customer transactions, inventory, online orders, payments, returns, and operational reporting.
+Retail organizations rely on structured relational database systems to efficiently manage customer transactions, inventory, order processing, payments, returns, and operational reporting.
 
 ## Project Overview
 The database system was designed to support customer management, inventory tracking, product catalog management, order processing, payments, returns, and product reviews. The project includes ERD development, relational schema development, database normalization, primary and foreign key constraints, referential integrity, domain constraints, and SQL query implementation.
@@ -27,12 +27,14 @@ The database system was designed to support customer management, inventory track
 - Developed normalized relational schemas (3NF) with primary keys, foreign keys, and referential integrity constraints
 - Modeled customers, products, inventory, orders, payments, returns, and reviews
 - Implemented referential integrity and domain constraints
-Created multi-table SQL queries using JOINs and filtering to support inventory, product, and operational reporting.- Supported inventory tracking and retail transaction workflows
+- Created multi-table SQL queries using JOINs and filtering to support inventory, product, and operational reporting
+- Supported inventory tracking and retail transaction workflows
 
 ## Business Value
 The database supports inventory management, sales reporting, customer transaction tracking, and operational decision-making through structured relational database design, normalized schemas, and SQL-based reporting.
 
 ## Sample SQL Query
+
 The following query joins the `Product`, `SKU`, and `Inventory` tables to produce an inventory report showing each product variation and its current stock level.
 
 ```sql
