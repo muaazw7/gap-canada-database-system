@@ -2,10 +2,10 @@
 
 This project designs and implements a relational SQL database system for retail inventory and sales operations using Microsoft SQL Server (SSMS) and ERDPlus. The system supports customer management, inventory tracking, order processing, payments, returns, product reviews, and operational reporting workflows.
 
-## Tools Used
-- Microsoft SQL Server (SSMS)
+## Tools & Technologies
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
 - ERDPlus
-- Relational Database Design
 - SQL
 
 ## Business Problem
